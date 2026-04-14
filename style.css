@@ -1,0 +1,242 @@
+body {
+    margin: 0px;
+    background-color: #C8A27A;
+}
+
+h1, h2, h3 {
+
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    color: #3E2C23;
+
+}
+
+p, a, li {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: #3E2C23;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* DEBUT NAVBAR */
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    height: 12vh;
+    background-color: #af9579;
+    box-shadow: 0 4px 12px rgba(62, 44, 35, 0.15);
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 6%;
+
+}
+
+nav ul li:hover {
+    background-color: black;
+}
+
+nav img {
+    width: 20%;
+}
+
+/* FIN NAVBAR */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUT BOUTON */
+.btn {
+    color: #3E2C23;
+    border: solid #715d53 2px;
+    border-radius: 7%;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    transition: all 0.3s ease;
+}
+
+.primary {
+    background-color: #715d53;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #C8A27A;
+    color: #3E2C23;
+}
+
+.secondary {
+    background-color: #91827b;
+    color: white;
+    border-color: #715d53;
+}
+
+.secondary:hover {
+    background-color: #B89F8A;
+    color: #3E2C23;
+    border-color: #C8A27A;
+}
+
+/* FIN BOUTON */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ORGANISATION HEAD */
+
+.btn-align {
+    display: flex;
+    gap: 10px;
+}
+
+.head-align {
+    display: flex;
+    height: 88vh;
+    justify-content: center
+}
+
+.head-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+}
+
+.head-img {
+    width: 50vw;
+    height: 90%;
+    object-fit: cover;
+    margin: auto;
+}
+
+/* FIN HEAD */
+
+
+
+
+
+
+
+
+
+/* DEBUT PRESTATION */
+
+.prestation {
+    padding: 5% 10%;
+    background-color: #F9F5F0;
+
+}
+
+.prestation h2 {
+
+    color: #3E2C23;
+    text-align: center;
+    margin-bottom: 4%;
+
+}
+
+.prestation-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    height: 40vh;
+
+}
+
+.prestation-card {
+
+    min-width: 250px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3vh;
+    box-shadow: 0 4px 12px rgba(62, 44, 35, 0.1);
+}
+
+.prestation-img {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.prestation-img img {
+    width: 100%;
+    border-radius: 10%;
+
+}
+
+.prestation-card h3 {
+    text-align: center;
+}
+
+.prestation-card p {
+    text-align: center;
+}
+
+/* FIN PRESTATION */
+
+
+
+
+
+.realisation {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.realisation-container {
+    display: flex;
+    align-items: center
+}
+
+.realisation-img img {
+    width: 50vw;
+    height: 70vh;
+    object-fit: cover;
+    border-radius: 5%;
+}
+.realisation-txt{
+    text-align: ;
+}
