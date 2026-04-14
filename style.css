@@ -59,6 +59,7 @@ nav ul li:hover {
 
 nav img {
     width: 20%;
+    margin-top: 1.5%;
 }
 
 /* FIN NAVBAR */
@@ -172,6 +173,8 @@ nav img {
     color: #3E2C23;
     text-align: center;
     margin-bottom: 4%;
+    text-decoration:underline;
+    font-weight: bold;
 
 }
 
@@ -219,11 +222,15 @@ nav img {
 
 
 
-
+/* DEBUT REALISATION */
 .realisation {
     display: flex;
     flex-direction: column;
     text-align: center;
+}
+.realisation h2{
+    text-decoration:underline;
+    font-weight: bold;
 }
 
 .realisation-container {
@@ -236,7 +243,13 @@ nav img {
     height: 70vh;
     object-fit: cover;
     border-radius: 5%;
+    margin-left: 1%;
+   
 }
 .realisation-txt{
-    text-align: ;
+    text-align: justify;
 }
+.realisation-txt h3{
+    text-align: center;
+}
+/* FIN REALISATION */
