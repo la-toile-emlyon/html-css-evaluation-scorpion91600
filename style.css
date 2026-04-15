@@ -215,7 +215,7 @@ main {
 .prestation-card {
 
     min-width: 250px;
-    height: 300px;
+    height: 320px;
     background-color: white;
     border-radius: 8px;
     padding: 3vh;
@@ -224,7 +224,8 @@ main {
 .prestation-card:hover{
      overflow: hidden;
      min-width: 300px;
-    height: 400px;
+    height: 420px;
+    background-color: #715d53;
 }
 
 .prestation-img {
@@ -344,7 +345,7 @@ main {
 
 }
 
-.galerie h2 {
+.galerie h2, h3{
     text-decoration: underline;
     /* font-weight: bold; */
     font-size: x-large;
@@ -435,7 +436,7 @@ main {
 .galerie-txt2 {
     flex: 1; 
     max-width: 500px; 
-    text-align: justify;
+    text-align: center;
 }
 
 
