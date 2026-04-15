@@ -101,8 +101,8 @@ nav img {
 }
 
 .primary:hover {
-    background-color: #C8A27A;
-    color: #3E2C23;
+    background-color: #315e66;
+    color: #96966a;
 }
 
 .secondary {
@@ -112,9 +112,9 @@ nav img {
 }
 
 .secondary:hover {
-    background-color: #B89F8A;
+    background-color: #688768;
     color: #3E2C23;
-    border-color: #C8A27A;
+    border-color: #96966a;
 }
 
 /* FIN BOUTON */
@@ -215,17 +215,19 @@ main {
 .prestation-card {
 
     min-width: 250px;
-    height: 320px;
+    height: 340px;
     background-color: white;
     border-radius: 8px;
     padding: 3vh;
     box-shadow: 0 4px 12px rgba(62, 44, 35, 0.368);
+    
 }
 .prestation-card:hover{
      overflow: hidden;
-     min-width: 300px;
-    height: 420px;
+    min-width: 300px;
+    height: 360px;
     background-color: #715d53;
+    
 }
 
 .prestation-img {
@@ -407,7 +409,7 @@ main {
     padding: 20px;
     max-width: 1200px; 
     margin: 0 auto;
-    background-color: #C8A27A;
+    background-color: #688768;
     border-radius: 10%;
      box-shadow: 0 4px 12px rgb(62, 44, 35);
 }
@@ -427,11 +429,11 @@ main {
     object-fit: cover;
     border-radius: 10px;
 }
-.galerie-img2-main img:hover{
-     overflow: hidden;
-     width: 60%;
-    height: 60%;
-}
+/* .galerie-img2-main img:hover{
+    overflow: hidden;
+     width: 100%;
+    height: 100%;
+} */
 
 .galerie-txt2 {
     flex: 1; 
@@ -460,3 +462,148 @@ main {
      width: 110%;
     height: 110%;
 }
+/* FIN GALERIE */
+
+
+
+
+
+
+/* DEBUT TEMOIGNAGES */
+
+.temoignages {
+    padding: 5% 10%;
+    background-color: #315e66;
+    text-align: center;
+    opacity: 80%;
+    border-radius: 10%;
+    box-shadow: 0 4px 12px rgba(62, 44, 35, 0.368); 
+}
+.temoignages p{
+    color: #ffebcc  ;
+}
+.temoignages h2 {
+    color: #ffebcc;
+    margin-bottom: 4%;
+    text-decoration: underline;
+    font-weight: bold;
+   
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(62, 44, 35, 0.2);
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 300px;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.temoignage-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #906e49;
+    border-radius: 10px;
+    padding: 30px;
+    height: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.user-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 3px solid #005b4a;
+    background-color: #ffebcc;
+}
+
+.user-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.temoignage-content h3 {
+    margin-bottom: 5px;
+    color: #ffebcc;
+}
+
+.prestation-type {
+    font-style: italic;
+    color: #715d53;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.avis {
+    font-style: italic;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #005b4a;
+    color: #ffebcc;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    z-index: 10;
+    transition: all 0.3s ease;
+}
+
+.carousel-btn:hover {
+    background-color: #3E2C23;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.carousel-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #715d53;
+}
+
+/* FIN TEMOIGNAGES */
+    
